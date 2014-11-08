@@ -1,0 +1,92 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".MyActivity">
+
+    <TextView
+        android:text="SMARTx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:textSize="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ON"
+        android:id="@+id/button"
+        android:layout_toEndOf="@+id/textView2"
+        android:width="150dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="89dp"
+        android:visibility="visible"
+        android:typeface="normal"
+        android:textStyle="normal"
+        android:textSize="20sp"
+        android:singleLine="false"
+        android:longClickable="false"
+        android:hint="Start SMARTx"
+        android:height="10dp"
+        android:enabled="true"
+        android:clickable="true"
+        android:onClick="ONbuttonOnClick"
+        android:layout_alignParentEnd="false" />
+        //android:onClick=""
+    />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tutorials"
+        android:id="@+id/button2"
+        android:layout_toEndOf="@+id/textView2"
+        android:layout_below="@+id/button"
+        android:layout_alignLeft="@+id/button"
+        android:layout_alignStart="@+id/button"
+        android:layout_marginTop="66dp"
+        android:layout_alignRight="@+id/button"
+        android:layout_alignEnd="@+id/button"
+        android:width="20dp"
+        android:visibility="visible"
+        android:typeface="normal"
+        android:textSize="20sp"
+        android:onClick="TutorialbuttonOnClick" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About Us"
+        android:id="@+id/button3"
+        android:layout_marginTop="55dp"
+        android:layout_below="@+id/button2"
+        android:layout_alignLeft="@+id/button2"
+        android:layout_alignStart="@+id/button2"
+        android:layout_alignRight="@+id/button2"
+        android:layout_alignEnd="@+id/button2"
+        android:textSize="20sp"
+        android:width="10dp"
+        android:visibility="visible"
+        android:typeface="normal"
+        android:textStyle="normal"
+        android:onClick="AboutbuttonOnClick" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/textView"
+        android:layout_below="@+id/textView2"
+        android:layout_toRightOf="@+id/textView2"
+        android:layout_toEndOf="@+id/textView2"
+        android:layout_marginTop="67dp" />
+
+</RelativeLayout>

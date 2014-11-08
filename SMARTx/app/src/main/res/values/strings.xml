@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SMARTx</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_gates_was_here">Gates_was_here</string>
+    <string name="title_activity_turorials">Turorials</string>
+    <string name="title_activity_about_us">About_us</string>
+
+</resources>
